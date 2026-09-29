@@ -1,0 +1,136 @@
+/* Page Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f0f7;
+    margin: 0;
+    padding: 50px;
+}
+
+
+/* Calculator Box */
+
+.calculator {
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+
+    background-color: white;
+
+    border: 1px solid #ccc;
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Heading */
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+}
+
+
+/* Labels */
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+
+    font-weight: bold;
+    color: #444;
+}
+
+
+/* Input Fields */
+
+input {
+    width: 100%;
+    padding: 12px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #aaa;
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+
+/* Buttons */
+
+.buttons {
+    margin-top: 25px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+button {
+    padding: 11px 15px;
+
+    border: none;
+    border-radius: 6px;
+
+    background-color: #3498db;
+    color: white;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+
+/* Button Hover Effect */
+
+button:hover {
+    background-color: #217dbb;
+}
+
+
+/* Result */
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+
+    text-align: center;
+
+    background-color: #f1f1f1;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    color: #2c3e50;
+}
+
+
+/* Mobile Screen */
+
+@media (max-width: 500px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .calculator {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    button {
+        width: 100%;
+    }
+}

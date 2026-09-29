@@ -1,0 +1,143 @@
+
+body {
+    font-family: "Courier New", monospace;
+    background-color: #1b1b1b;
+    color: #39ff14;
+
+    margin: 0;
+    padding: 40px;
+}
+
+
+/* Main Container */
+
+.container {
+    width: 500px;
+    margin: auto;
+
+    background-color: #222;
+
+    padding: 25px;
+
+    border: 3px solid #39ff14;
+
+    box-shadow: 6px 6px 0px #39ff14;
+}
+
+
+/* Heading */
+
+h1 {
+    text-align: center;
+
+    color: #ffcc00;
+
+    border-bottom: 2px dashed #39ff14;
+
+    padding-bottom: 15px;
+}
+
+
+/* Form */
+
+label {
+    display: block;
+
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    color: #ffcc00;
+}
+
+input {
+    width: 100%;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    background-color: #111;
+
+    color: #39ff14;
+
+    border: 2px solid #555;
+
+    font-family: "Courier New", monospace;
+}
+
+input:focus {
+    border-color: #39ff14;
+    outline: none;
+}
+
+
+/* Button */
+
+button {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 12px;
+
+    background-color: #39ff14;
+    color: #111;
+
+    border: none;
+
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+
+/* Output */
+
+#output {
+    margin-top: 30px;
+
+    padding: 20px;
+
+    border: 2px dashed #39ff14;
+
+    background-color: #111;
+}
+
+#output h2 {
+    color: #ffcc00;
+    text-align: center;
+}
+
+#output h3 {
+    color: #ffcc00;
+}
+
+#output p {
+    border-bottom: 1px dotted #555;
+    padding-bottom: 5px;
+}
+
+#studentSkills {
+    line-height: 1.8;
+}
+
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+

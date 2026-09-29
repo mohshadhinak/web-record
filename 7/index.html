@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Details</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>STUDENT RECORD</h1>
+
+        <form id="studentForm">
+
+            <label for="name">Student Name</label>
+            <input type="text" id="name" required>
+
+            <label for="rollno">Roll Number</label>
+            <input type="text" id="rollno" required>
+
+            <label for="course">Course</label>
+            <input type="text" id="course" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" min="0" required>
+
+            <label for="skills">Skills</label>
+            <input type="text" id="skills"
+                   placeholder="Example: HTML, JavaScript, Java">
+
+            <button type="submit">DISPLAY DETAILS</button>
+
+        </form>
+
+        <div id="output">
+            <h2>STUDENT INFORMATION</h2>
+
+            <p id="studentName"></p>
+            <p id="studentRoll"></p>
+            <p id="studentCourse"></p>
+            <p id="studentEmail"></p>
+            <p id="studentAge"></p>
+
+            <h3>SKILLS</h3>
+            <ul id="studentSkills"></ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

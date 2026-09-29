@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+}
+
+header {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student {
+    background-color: white;
+    width: 400px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px #bbb;
+}
+
+.student h2 {
+    color: #37474f;
+}
+
+.student p {
+    font-size: 17px;
+}
+
+button {
+    padding: 9px 15px;
+    border: none;
+    background-color: #455a64;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #263238;
+}
+
+footer {
+    background-color: #263238;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

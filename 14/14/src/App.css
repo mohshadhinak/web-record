@@ -1,0 +1,95 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ea;
+}
+
+header {
+    background-color: #594a3c;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.todo {
+    background-color: white;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #bbb;
+}
+
+.todo h2 {
+    text-align: center;
+    color: #594a3c;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    padding: 9px 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #594a3c;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #382f28;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #eee9e1;
+    border-radius: 5px;
+}
+
+li div {
+    display: flex;
+    gap: 5px;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+footer {
+    background-color: #594a3c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+

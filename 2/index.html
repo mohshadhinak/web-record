@@ -1,0 +1,115 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <h1>Student Registration</h1>
+
+        <form>
+
+            <!-- Text Fields -->
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="rollno">Roll Number</label>
+            <input type="text" id="rollno" name="rollno"
+                   placeholder="Enter your roll number" required>
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <!-- Password -->
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password"
+                   placeholder="Enter your password" required>
+
+            <!-- Date -->
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+
+            <!-- Radio Buttons -->
+            <label>Gender</label>
+
+            <div class="option-group">
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="other">
+                    Other
+                </label>
+            </div>
+
+            <!-- Checkboxes -->
+            <label>Interests</label>
+
+            <div class="option-group">
+                <label>
+                    <input type="checkbox" name="interest" value="programming">
+                    Programming
+                </label>
+
+                <label>
+                    <input type="checkbox" name="interest" value="sports">
+                    Sports
+                </label>
+
+                <label>
+                    <input type="checkbox" name="interest" value="music">
+                    Music
+                </label>
+            </div>
+
+            <!-- Dropdown List -->
+            <label for="course">Course</label>
+
+            <select id="course" name="course">
+                <option value="">-- Select Course --</option>
+                <option value="bsc">B.Sc Computer Science</option>
+                <option value="bca">BCA</option>
+                <option value="btech">B.Tech</option>
+                <option value="mca">MCA</option>
+            </select>
+
+            <!-- Textarea -->
+            <label for="address">Address</label>
+
+            <textarea id="address" name="address"
+                      placeholder="Enter your address"></textarea>
+
+            <!-- Buttons -->
+            <div class="buttons">
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+```

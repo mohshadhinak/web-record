@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <h1>Simple Calculator</h1>
+
+        <label for="num1">First Number</label>
+        <input type="number" id="num1" placeholder="Enter first number">
+
+        <label for="num2">Second Number</label>
+        <input type="number" id="num2" placeholder="Enter second number">
+
+        <div class="buttons">
+            <button onclick="calculate('+')">Addition (+)</button>
+            <button onclick="calculate('-')">Subtraction (-)</button>
+            <button onclick="calculate('*')">Multiplication (×)</button>
+            <button onclick="calculate('/')">Division (÷)</button>
+            <button onclick="calculate('%')">Modulus (%)</button>
+        </div>
+
+        <h2 id="result">Result: </h2>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
