@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #edf2f7;
+    color: #263238;
+}
+
+header {
+    background-color: #234e70;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0 0 8px;
+}
+
+header p {
+    margin: 0;
+}
+
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.form-section,
+.student-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #c5cbd3;
+}
+
+h2 {
+    color: #234e70;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 150px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #234e70;
+    color: white;
+    cursor: pointer;
+    margin: 2px;
+}
+
+button:hover {
+    background-color: #163b55;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #dce8f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f7f9fb;
+}
+
+footer {
+    background-color: #234e70;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
