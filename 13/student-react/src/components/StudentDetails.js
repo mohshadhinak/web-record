@@ -28,3 +28,23 @@ function StudentDetails(props) {
 }
 
 export default StudentDetails;
+
+function StudentDetails(props) {
+
+    return (
+        <section className="student">
+
+            <h2>Student Details</h2>
+
+            <div>
+                <p><strong>Name:</strong> {props.name}</p>
+                <p><strong>Roll No:</strong> {props.rollNo}</p>
+                <p><strong>Course:</strong> {props.course}</p>
+                <p><strong>Age:</strong> {props.age}</p>
+            </div>
+
+        </section>
+    );
+}
+
+export default StudentDetails;
