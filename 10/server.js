@@ -5,17 +5,15 @@ const server = http.createServer((req, res) => {
 
     if (req.url === "/" && req.method === "GET") {
 
-        fs.readFile("index.html", (err, data) => {
 
-            if (err) {
-                res.writeHead(500, { "Content-Type": "text/html" });
-                res.end("<h1>Server Error</h1>");
-                return;
-            }
 
-            res.writeHead(200, { "Content-Type": "text/html" });
-            res.end(data);
-        });
+        res.writeHead(200, { "Content-Type": "text/html" });
+
+        res.end(`
+                <h1>Home page</h1>
+                <p>Server is running</p>`
+            );
+
 
     } else if (req.url === "/about" && req.method === "GET") {
 

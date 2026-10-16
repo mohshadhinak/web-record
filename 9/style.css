@@ -1,4 +1,3 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #eaf2f8;
@@ -42,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #110e76;
 }
 
 ul {
@@ -66,10 +65,9 @@ li.completed {
 }
 
 .delete-btn {
-    background-color: #e74c3c;
+    background-color: lab(54.54% 58.91 42.66);
 }
 
 .delete-btn:hover {
     background-color: #c0392b;
 }
-
